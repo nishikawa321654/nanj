@@ -14,9 +14,9 @@ headers = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko
 request = urllib.request.Request(url_1, headers=headers) 
 html = urllib.request.urlopen(request).read()
 with open('LICENSE1.txt', mode="wb") as f:
-   f.write(html)
+  f.write(html)
 
 request = urllib.request.Request(url_2, headers=headers) 
 html = urllib.request.urlopen(request).read()
 with open('LICENSE2.txt', mode="wb") as f:
-   f.write(html)
+  f.write(html)
